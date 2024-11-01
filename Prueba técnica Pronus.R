@@ -172,7 +172,7 @@ data2$Entidad[which.max(data2$sum)]
 #cusum <- cusum(modelo2)
 #plot(cusum)
 
-#En caso de la línea salga de los límites establecidos por la prueba, entonces
+#En caso de que la línea salga de los límites establecidos por la prueba, entonces
 # puede ser necesario incluir una dummy adicional que modele el cambio
 #estructural. Ahora bien, Para la autocorrelación de errores se puede emplear la
 #prueba de Breusch-Godfrey o la prueba de Durbin-Watson:
